@@ -1,0 +1,104 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.price {
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.descriptionn {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+/* Add this to your CSS file */
+
+.delete-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.delete-heading {
+    text-align: center;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.delete-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.delete-info {
+    margin-bottom: 20px;
+}
+
+.delete-info label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.item-name {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.delete-info img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.delete-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-confirm-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.delete-confirm-button:hover {
+    background-color: #c0392b;
+}
+
+.delete-cancel-link {
+    color: #3498db;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.delete-cancel-link:hover {
+    color: #2980b9;
+}
+
+
+
+
+
+
+
+

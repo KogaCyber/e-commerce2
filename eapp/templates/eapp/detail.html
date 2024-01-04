@@ -1,0 +1,19 @@
+{% extends "eapp/base.html" %}
+{% load humanize %}
+{% block content %}
+<div>
+    <h1 class="he" style="margin: 20px">{{item.name}}</h1>
+    <img src="{{ item.image.url }}" alt="itemPhoto" style="margin: 20px; flex-wrap: wrap; display: flex; width: 300px;">
+    <h3 class="price" style="margin: 20px;"> {{item.price | intcomma }}</h3>
+    <p class="descriptionn" style="margin: 20px;">{{item.description}}</p>
+    <a href="{% url 'eapp:update_item' item.id %}" style="margin: 20px;"><button>Update</button>
+    <a href="{% url 'eapp:delete_item' item.id %}" style="margin: 20px;"><button>Delete</button>
+    </a>
+</div>
+{% endblock content %}
+
+
+
+
+
+

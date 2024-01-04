@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'eapp/style.css' %}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% include "eapp/components/_navbar.html" %}
+{% block content %}
+{% endblock content %}
+
+{% block card %}
+{% endblock card %}
+</body>
+</html>
